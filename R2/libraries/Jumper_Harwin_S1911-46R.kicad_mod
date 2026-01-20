@@ -1,0 +1,190 @@
+(footprint "Jumper_Harwin_S1911-46R"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.185 -3.285 0)
+		(layer "F.SilkS")
+		(uuid "7277778e-68e5-4fd4-a471-91d9d421c941")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HARWIN_S1911-46R"
+		(at 5.8 3.285 0)
+		(layer "F.Fab")
+		(uuid "d351a2a7-aed4-424b-93bf-c7db33d1a62f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6fef96c5-8a4f-48b8-907d-76d299d504f1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f96b3194-45e9-4953-9e40-ec2c1d8c2bb7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af5c8429-240e-4fe8-8a3b-c369c70676e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.13 -1.255)
+		(end 1.13 -1.255)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "819e47f7-528d-4da6-aec3-f496f69b06d2")
+	)
+	(fp_line
+		(start -1.13 1.255)
+		(end 1.13 1.255)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e80b2bd-648d-47e6-b213-0edfbea1bc12")
+	)
+	(fp_line
+		(start -4.18 -1.75)
+		(end -4.18 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "76e85f29-9ed2-47a1-9763-359ef60fbb88")
+	)
+	(fp_line
+		(start -4.18 1.75)
+		(end 4.18 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8f065ff2-0fc2-4d55-b574-2c3c791acd7f")
+	)
+	(fp_line
+		(start 4.18 -1.75)
+		(end -4.18 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f02d375c-80cf-464b-8ce4-4bc9fef6c090")
+	)
+	(fp_line
+		(start 4.18 1.75)
+		(end 4.18 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0d7a87e3-8d31-4dbe-b97c-1ed048330db4")
+	)
+	(fp_line
+		(start -3.425 -1.255)
+		(end 3.425 -1.255)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "43bfc699-6e2d-49d2-89fe-1471e343841b")
+	)
+	(fp_line
+		(start -3.425 1.255)
+		(end -3.425 -1.255)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1b557acc-20f1-408c-b7c8-51527da38e82")
+	)
+	(fp_line
+		(start 3.425 -1.255)
+		(end 3.425 1.255)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ecc8a3da-c2fe-480d-871b-9073e859d14e")
+	)
+	(fp_line
+		(start 3.425 1.255)
+		(end -3.425 1.255)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e4838f78-6fc5-4e91-84ce-e85fe84e9e81")
+	)
+	(pad "1" smd rect
+		(at -2.69 0)
+		(size 2.48 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "785047e7-5cbd-485f-a726-9c6c9d42187e")
+	)
+	(pad "2" smd rect
+		(at 2.69 0)
+		(size 2.48 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "4f73d810-104b-4e2a-b290-6218fd54530d")
+	)
+	(model "${KIPRJMOD}/libraries/Jumper_Harwin_s1911-46r.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

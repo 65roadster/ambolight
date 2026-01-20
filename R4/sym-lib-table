@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "esp32-s32-wroom1-breakout")(type "KiCad")(uri "C:/Users/Ray/OneDrive/Projects/kicad/breakouts/ESP32-S3-WROOM1 Breakout/esp32-s32-wroom1-breakout.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX98357A")(type "KiCad")(uri "${KIPRJMOD}/libraries/MAX98357A.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS631000DRLR")(type "KiCad")(uri "${KIPRJMOD}/libraries/TPS631000DRLR.kicad_sym")(options "")(descr ""))
+  (lib (name "MAKK2016T1R0M")(type "KiCad")(uri "${KIPRJMOD}/libraries/MAKK2016T1R0M.kicad_sym")(options "")(descr ""))
+  (lib (name "1-RJC-RV")(type "KiCad")(uri "${KIPRJMOD}/libraries/1-RJC-RV.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,121 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.5*%
+%TF.CreationDate,2025-03-21T14:04:30-04:00*%
+%TF.ProjectId,rv_light,72765f6c-6967-4687-942e-6b696361645f,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Bot*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.5) date 2025-03-21 14:04:30*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMRoundRect*
+0 Rectangle with rounded corners*
+0 $1 Rounding radius*
+0 $2 $3 $4 $5 $6 $7 $8 $9 X,Y pos of 4 corners*
+0 Add a 4 corners polygon primitive as box body*
+4,1,4,$2,$3,$4,$5,$6,$7,$8,$9,$2,$3,0*
+0 Add four circle primitives for the rounded corners*
+1,1,$1+$1,$2,$3*
+1,1,$1+$1,$4,$5*
+1,1,$1+$1,$6,$7*
+1,1,$1+$1,$8,$9*
+0 Add four rect primitives between the rounded corners*
+20,1,$1+$1,$2,$3,$4,$5,0*
+20,1,$1+$1,$4,$5,$6,$7,0*
+20,1,$1+$1,$6,$7,$8,$9,0*
+20,1,$1+$1,$8,$9,$2,$3,0*%
+%AMHorizOval*
+0 Thick line with rounded ends*
+0 $1 width*
+0 $2 $3 position (X,Y) of the first rounded end (center of the circle)*
+0 $4 $5 position (X,Y) of the second rounded end (center of the circle)*
+0 Add line between two ends*
+20,1,$1,$2,$3,$4,$5,0*
+0 Add two circle primitives to create the rounded ends*
+1,1,$1,$2,$3*
+1,1,$1,$4,$5*%
+%AMRotRect*
+0 Rectangle, with rotation*
+0 The origin of the aperture is its center*
+0 $1 length*
+0 $2 width*
+0 $3 Rotation angle, in degrees counterclockwise*
+0 Add horizontal line*
+21,1,$1,$2,0,0,$3*%
+G04 Aperture macros list end*
+%ADD10C,0.939800*%
+%ADD11C,5.715000*%
+%ADD12RotRect,1.700000X1.700000X59.000000*%
+%ADD13HorizOval,1.700000X0.000000X0.000000X0.000000X0.000000X0*%
+%ADD14RoundRect,0.250000X-0.725000X0.600000X-0.725000X-0.600000X0.725000X-0.600000X0.725000X0.600000X0*%
+%ADD15O,1.950000X1.700000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,TP11*%
+X13517191Y33528060D03*
+%TD*%
+%TO.C,TP10*%
+X14900577Y31397847D03*
+%TD*%
+%TO.C,TP9*%
+X45085000Y38735000D03*
+%TD*%
+%TO.C,TP8*%
+X43711202Y40850464D03*
+%TD*%
+%TO.C,TP7*%
+X42337405Y42965925D03*
+%TD*%
+%TO.C,TP6*%
+X40815685Y45309172D03*
+%TD*%
+%TO.C,TP5*%
+X20434109Y22876942D03*
+%TD*%
+%TO.C,TP4*%
+X19050720Y25007164D03*
+%TD*%
+%TO.C,TP3*%
+X17667336Y27137396D03*
+%TD*%
+%TO.C,TP2*%
+X16283958Y29267615D03*
+%TD*%
+%TO.C,TP1*%
+X12133810Y35658282D03*
+%TD*%
+D11*
+%TO.C,H3*%
+X53972221Y-3809637D03*
+%TD*%
+%TO.C,H2*%
+X53971113Y59698784D03*
+%TD*%
+%TO.C,H1*%
+X1266105Y27948781D03*
+%TD*%
+%TO.C,H4*%
+X-51438898Y-3801227D03*
+%TD*%
+D12*
+%TO.C,J1*%
+X23672112Y12213677D03*
+D13*
+X25849317Y10905480D03*
+%TD*%
+D14*
+%TO.C,J4*%
+X55371998Y30440000D03*
+D15*
+X55371998Y27940000D03*
+X55371998Y25440000D03*
+%TD*%
+D11*
+%TO.C,H5*%
+X-51419685Y59727331D03*
+%TD*%
+M02*
